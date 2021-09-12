@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Services</title>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        body {
+             margin: 0;
+             padding: 0;
+             height: max-content;
+             background-color: RGB (187, 194, 204);
+         }
+        ::selection {
+            background-color: goldenrod;
+            color: black;
+        }    
+        .titleName      {
+        background-color: #772f1a;
+        background-image: linear-gradient(315deg, #772f1a 0%, #f2a65a 74%);
+        position: sticky;
+        padding: 6px;
+        text-align: center;
+        color: HEX #A228FF;                      
+        font-family: 'Kaushan Script', cursive;
+        font-size: 70px;
+        display: block;
+        box-shadow: 10px 20px 30px black;
+        overflow: hidden;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+       }           
+       #sqre {                               
+         background-color: whitesmoke;
+         height: fit-content;
+         width: fit-content;
+         margin-left: auto;
+         margin-right: auto;
+         box-shadow: 5px 10px 15px black;
+         display: block;
+       }
+     #boxes     {
+       display:      grid;
+       font-size:    25px;
+       font-family: 'Merienda', cursive;
+       grid-template-columns: auto auto auto;
+       text-align: center;
+     }
+     #eveStyle    {       
+       height: 10px;
+       width: 200px;
+       padding: 40px;    
+       margin-left: 70px;
+       margin-right:70px ;
+       column-gap: 0;     
+     }
+     #hairSpaa {
+      margin-top: 30px;
+        padding: 50px;
+        background-color: #f8ceec;
+        background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
+        margin-left: 20%;
+        margin-right: 20%;
+     }    
+       .hairSpa      {
+        color: goldenrod;
+        font-size: 60px;
+        text-align: center;
+        font-family: 'Kaushan Script', cursive; 
+        margin-top: 15px;
+        text-decoration: none;       
+       }
+       #hairSpaTitle
+       {
+           color: silver;
+           text-align: center;
+           font-family: 'Merienda', cursive;
+           font-size: 30px;
+           line-height: 3px;
+       }
+    
+       .grid
+       {
+           display: grid;
+           grid-template-columns: auto auto; 
+       }
+       .grid1{
+           display: grid;
+           grid-template-columns: auto auto auto;   
+       }
+       #w       {
+           color: black;
+           font-size: 25px;
+           font-family: 'Merienda', cursive;
+           margin-left: auto;
+           margin-right: auto;  
+       }
+       #n      {
+           margin-left: auto;
+           margin-right: auto;
+           color:darkslategrey;
+           font-size: 25px;
+           font-family: 'Merienda', cursive;          
+       }
+       #h      {
+           color:rgb(37, 28, 28);
+           font-size: 50px;
+           font-family: 'Kaushan Script', cursive;
+           text-align: center;           
+       }
+       .menu {
+         display: grid;
+         grid-template-columns: auto auto;
+         margin-top: 30px;      
+       }
+       #lef {
+         height: 70px;
+         width: 300px;
+        margin-left: 55%;
+         font-size: 30px;
+         text-align: center;
+         background-color: #6b0f1a;
+         background-image: linear-gradient(315deg, #6b0f1a 0%, #b91372 74%);
+         border-radius: 0 50px 0 50px;
+         font-family: 'Merienda', cursive;
+         color: silver;
+         box-shadow: 2.5px 5px 7.5px grey;
+       }
+       #ryt {
+         height: 70px;
+         width: 300px;
+         margin-left: 0;
+         font-size: 30px;
+         text-align: center;
+         background-color: #6b0f1a;
+         background-image: linear-gradient(315deg, #6b0f1a 0%, #b91372 74%);
+         border-radius: 50px 0 50px 0;
+         font-family: 'Merienda', cursive;
+         color: silver;
+         box-shadow: 2.5px 5px 7.5px grey;
+       }
+      .servicePad {
+        background-color: goldenrod;
+        margin-top: 30px;
+        padding: 50px;
+      }
+     .stress {
+       background-color: #9fa4c4;
+       background-image: linear-gradient(315deg, #9fa4c4 0%, #9e768f, 74%);
+       margin-left: 20%;
+       margin-right: 20%;
+     }  
+     .hc {
+      background-color: #5de6de;
+       background-image: linear-gradient(315deg, #5de6de 0%, #b58ecc 74%);
+       margin-left: 20%;
+       margin-right: 20%;
+     }
+     .wax {
+      background-color: #94c997;
+       background-image: linear-gradient(315deg, #94c997 0%, #daacec 74%);
+       margin-left: 20%;
+       margin-right: 20%;
+     }
+     .tan {
+      background-color: #8989bb;
+       background-image: linear-gradient(315deg, #8989bb 0%, #a5a4cb 74%);
+       margin-left: 20%;
+       margin-right: 20%;
+     }
+     .faci {
+      background-color: #94c997;
+       background-image: linear-gradient(315deg, #94c997 0%, #daacec 74%);
+       margin-left: 20%;
+       margin-right: 20%;
+     }
+     .pedi {
+      background-color: #5de6de;
+       background-image: linear-gradient(315deg, #5de6de 0%, #b58ecc 74%);
+       margin-left: 20%;
+       margin-right: 20%;
+     }
+     .mani {
+      background-color: #5de6de;
+       background-image: linear-gradient(315deg, #5de6de 0%, #b58ecc 74%);
+       margin-left: 20%;
+       margin-right: 20%;
+     }
+     .thread {
+      background-color: #5de6de;
+       background-image: linear-gradient(315deg, #5de6de 0%, #b58ecc 74%);
+       margin-left: 20%;
+       margin-right: 20%;
+     }
+     .spec {
+      background-color: #5de6de;
+       background-image: linear-gradient(315deg, #5de6de 0%, #b58ecc 74%);
+       margin-left: 20%;
+       margin-right: 20%;
+     }
+     .ex {
+      background-color: #5de6de;
+       background-image: linear-gradient(315deg, #5de6de 0%, #b58ecc 74%);
+       margin-left: 20%;
+       margin-right: 20%;
+     }
+     .cut {
+      background-color: #5de6de;
+       background-image: linear-gradient(315deg, #5de6de 0%, #b58ecc 74%);
+       margin-left: 20%;
+       margin-right: 20%;
+     }
+     a {
+       text-decoration: none;
+       color: black;
+       transition: all 0.2s;
+     }
+     a:hover{
+       background-color: black;
+       color: silver;
+     }
+     .costPad {      
+       background-color: #a55c1b;
+       background-image: linear-gradient(315deg, #a55c1b 0%, #000000 74%);
+     }
+     .foot{
+        padding: 6px;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #772f1a;
+        background-image: linear-gradient(315deg, #772f1a 0%, #f2a65a 74%);
+        font-family: 'Kaushan Script', cursive;
+        font-size: 20px;
+        display: block;
+        text-align: center;
+     }
+     .fa-instagram {  
+  color: black;  
+} 
+.up{
+  margin-left: 95%;
+  font-size: 30px;
+} 
+    </style>
+</head>
+
+<body>
+
+<div class="bigBox">
+  <div id="top"><div class="titleName"> Beauty Studio</div> </div>
+     <div class="menu">
+        <div id="lef"> Gallery</div>
+        <div id="ryt">Beauty Pack</div>
+        <div id="lef">Bridal Pack</div>
+        <div id="ryt">Appointment</div>
+        <div id="lef">Query</div>
+        <div id="ryt">About Us</div>
+        <div id="lef">Contact</div>
+        <div id="ryt">Location</div>
+  </div>
+     
+<div class="servicePad"> 
+    <div id="sqre">
+       <div id="boxes">
+            <div id="eveStyle">  <a href="#hairSpaa">Hair Spa</a></div>
+            <div id="eveStyle"> <a href="#stresss">Stress Reflex</a></div>
+            <div id="eveStyle"> <a href="#hairColor">Hair Colouring</a></div>
+            <div id="eveStyle"> <a href="#waxi">Waxing</a> </div>     
+            <div id="eveStyle"><a href="#tani">De-Tan</a> </div>
+            <div id="eveStyle"><a href="#facii"> Facials</a></div>
+            <div id="eveStyle"><a href="#pedii">Pedicure</a> </div>
+            <div id="eveStyle"><a href="#manii"> Manicure</a></div>
+            <div id="eveStyle"><a href="#threadii">Threading</a> </div>
+            <div id="eveStyle"><a href="#specii">Specials</a> </div>
+            <div id="eveStyle"><a href="#exci">Exclusives</a> </div>
+            <div id="eveStyle"><a href="#hairee">Hair Cut</a> </div>
+       </div>
+    </div>
+</div>
+
+    
+   
+<div class="costPad">
+  <div id="hairSpaa">
+    <div id="h">Hair Spa</div>
+    <div class="grid">
+        <div id="w">Oil Massage</div>
+        <div id="n">Rs. 400</div>
+        <div id="w">Oil Massage incl. wash</div>
+        <div id="n">Rs. 550</div>
+        <div id="w">Keratin Spa</div>
+        <div id="n">Rs. 1200</div>
+        <div id="w">Nourish Spa</div>
+        <div id="n">Rs. 1350</div>
+    </div>
+  </div>
+  <div id="stresss"> <div class="stress">
+    <div id="h">Stress Reflexology</div>
+    <div class="grid">
+        <div id="w">Hed, Neck & Shoulder</div>
+        <div id="n">Rs. 1000 for 30 mins</div>
+        <div id="w">Hands</div>
+        <div id="n">Rs. 800 for 20 mins</div>
+        <div id="w">Feet</div>
+        <div id="n">Rs. 500 for 20 mins</div>
+        <div id="w">Legs</div>
+        <div id="n">Rs. 1500 for 30 mins</div>
+        <div id="w">Back</div>
+        <div id="n">Rs. 1200 for 30 mins</div>
+    </div>
+  </div></div>
+   <div id="hairColor"> <div class="hc"><div id="h">Hair Colouring</div>
+   <div class="grid">
+       <div id="w">Root Touchup</div>
+       <div id="n">Rs. 1500</div>
+       <div id="w">Global Ammonia Free</div>
+       <div id="n">Rs. 4500</div>
+       <div id="w">Highlights</div>
+       <div id="n">Rs. 1000</div>
+       <div id="w">Creative Colouring</div>
+       <div id="n">Rs. 2500</div>
+   </div></div>
+    </div>
+    <div id="waxi">  <div class="wax"><div id="h">Waxing</div>
+    <div class="grid">
+        <div id="w">Upper Lip</div>
+        <div id="n">Rs. 250</div>
+        <div id="w">Chin</div>
+        <div id="n">Rs. 300</div>
+        <div id="w">Side Face</div>
+        <div id="n">Rs. 600</div>
+        <div id="w">Legs</div>
+        <div id="n">Rs. 800</div>
+        <div id="w">Arms</div>
+        <div id="n">Rs. 600</div>
+    </div></div></div>
+   
+      <div id="tani"> <div class="tan"><div id="h">De-Tan</div>
+      <div class="grid">
+          <div id="w">Face</div>
+          <div id="n">Rs. 250</div>
+          <div id="w">Face + Neck</div>
+          <div id="n">Rs. 200</div>
+          <div id="w">Under Arm</div>
+          <div id="n">Rs. 600</div>
+          <div id="w">Legs</div>
+          <div id="n">Rs. 830</div>
+          <div id="w">Arms</div>
+          <div id="n">Rs. 650</div>
+      </div></div></div>
+    
+      <div id="facii"><div class="faci"> <div id="h">Facials</div>
+      <div class="grid">
+          <div id="w">Fruit clean up</div>
+          <div id="n">Rs. 4250</div>
+          <div id="w">Gold clean up</div>
+          <div id="n">Rs. 2700</div>
+          <div id="w">Age lock facial</div>
+          <div id="n">Rs. 6200</div>
+          <div id="w">Diamond facial</div>
+          <div id="n">Rs. 8300</div>
+          <div id="w">Advance radiance</div>
+          <div id="n">Rs. 6000</div>
+      </div></div></div>
+     
+     <div id="pedii">  <div class="pedi"><div id="h">Pedicure</div>
+     <div class="grid">
+         <div id="w">Classic</div>
+         <div id="n">Rs. 600</div>
+         <div id="w">Pedi cum Spa</div>
+         <div id="n">Rs. 2700</div>
+         
+     </div></div></div>
+   
+      <div id="manii"> <div class="mani"> <div id="h">Manicure</div>
+      <div class="grid">
+          <div id="w">Classic</div>
+          <div id="n">Rs. 450</div>
+          <div id="w">Manicure cum Spa</div>
+          <div id="n">Rs. 2700</div>
+        
+      </div></div></div>
+    
+     <div id="threadi"> <div class="thread"> <div id="h">Threading</div>
+     <div class="grid">
+         <div id="w">Eyebrow</div>
+         <div id="n">Rs. 100</div>
+         <div id="w">Full fce</div>
+         <div id="n">Rs. 250</div>
+     
+     </div></div></div>
+    
+     <div id="specii"> <div class="spec">  <div id="h">Specials</div>
+     <div class="grid">
+         <div id="w">Body polishing</div>
+         <div id="n">Rs. 4250</div>
+         <div id="w">Face polishing</div>
+         <div id="n">Rs. 2700</div>
+         
+     </div></div></div>
+    
+    <div id="exci"> <div class="ex"> <div id="h">Exclusives</div>
+    <div class="grid">
+        <div id="w">Tightening mask</div>
+        <div id="n">Rs. 450</div>
+        <div id="w">Gold mask</div>
+        <div id="n">Rs. 270</div>
+    
+    </div></div></div>
+    
+     <div id="hairee"> <div class="cut">  <div id="h">Hair Cut</div>
+     <div class="grid">
+         <div id="w">Kids</div>
+         <div id="n">Rs. 300</div>
+         <div id="w">Fringe</div>
+         <div id="n">Rs. 700</div>
+         <div id="w">Classic</div>
+         <div id="n">Rs. 620</div>
+     </div></div>
+</div>
+<div class="up"><a href="#top">☝</a></div>
+<div class="foot"><div class="grid1">
+  <div><i class="fa fa-envelope" > beautystudi@gmail.com</i> </div>
+  <div><i class="fa fa-phone"> 9328489649128</i> </div>
+  <div><a href="#" class="fa fa-instagram"> beautystudio/insta</a></div>
+</div></div>
+    
+  
+<div>                                                                                                      
+</body>
+</html>
